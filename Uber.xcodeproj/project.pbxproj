@@ -21,6 +21,7 @@
 		D27D6488251919B30080D200 /* LocationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D6487251919B30080D200 /* LocationInputView.swift */; };
 		D28F708A25089BA600DACDF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D28F708925089BA600DACDF2 /* GoogleService-Info.plist */; };
 		D297FCDB2507911800632BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D297FCDA2507911800632BB5 /* Main.storyboard */; };
+		D2E7F340251FAF870014D3E4 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E7F33F251FAF870014D3E4 /* LocationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		D27D6487251919B30080D200 /* LocationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputView.swift; sourceTree = "<group>"; };
 		D28F708925089BA600DACDF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D297FCDA2507911800632BB5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D2E7F33F251FAF870014D3E4 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		E9C813832FABCC82E49C53D6 /* Pods-Uber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber.debug.xcconfig"; path = "Target Support Files/Pods-Uber/Pods-Uber.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +135,7 @@
 				D218237A2507F72D0081B570 /* AuthButton.swift */,
 				D24D64D625190103001CAF7E /* LocationInputActivationView.swift */,
 				D27D6487251919B30080D200 /* LocationInputView.swift */,
+				D2E7F33F251FAF870014D3E4 /* LocationCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				D27D6488251919B30080D200 /* LocationInputView.swift in Sources */,
 				D242CA2C24FF53C400ACCC65 /* LoginController.swift in Sources */,
 				D242CA0D24FF518700ACCC65 /* AppDelegate.swift in Sources */,
+				D2E7F340251FAF870014D3E4 /* LocationCell.swift in Sources */,
 				D242CA0F24FF518700ACCC65 /* SceneDelegate.swift in Sources */,
 				D24D64D725190103001CAF7E /* LocationInputActivationView.swift in Sources */,
 				D22D3F4E2506A221007A29F9 /* Extensions.swift in Sources */,
