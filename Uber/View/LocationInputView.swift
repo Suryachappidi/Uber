@@ -15,6 +15,10 @@ protocol LocationInputViewDelegate: class {
 class LocationInputView: UIView {
 
     //MARK: - Properties
+    var user: User? {
+        didSet { titleLabel.text = user?.fullname }
+    }
+    
     weak var delegate: LocationInputViewDelegate?
     
     private let backButton: UIButton = {
@@ -26,7 +30,6 @@ class LocationInputView: UIView {
     
     private let titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Surya Chappidi"
         label.font = UIFont.boldSystemFont(ofSize: 16)
         label.textColor = .darkGray
         return label
@@ -67,7 +70,7 @@ class LocationInputView: UIView {
     private lazy var endingLocationTextField: UITextField = {
         let tf = UITextField()
         tf.placeholder = "Enter Destination"
-        tf.backgroundColor = .lightGray
+        tf.backgroundColor = .systemGroupedBackground
         tf.returnKeyType = .search
         
         let paddingView = UIView()
